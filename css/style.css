@@ -1,3 +1,7 @@
+
+
+
+
 /*!
  CONTENTS
  
@@ -12,20 +16,26 @@
 
 
 /*========DEFAULT CSS============*/
-body{
-    background-color:aliceblue;
+
+    
+    
+
+.footer-custom{
+    background-color:lightskyblue;
+    
+    
+    
+}
+
+h2{
+    font-family: 'Bebas Neue', cursive;
     color: whitesmoke;
 }
 
-.footer-custom{
-    background-color:;
-    
-    
+.lead{
+    color: whitesmoke;
 }
 
-#title{
-    color: black;
-}
 
 /*========HEADER============*/
 header {
@@ -33,11 +43,23 @@ header {
 }
 
 
+#title{
+    color: #ff3300;
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 65px;
+}
+
+
+#titleCap{
+    color: #ff3300;
+    
+}
 
 #Home
 {
   background-image:url(banner.jpg);
     background-position: center;
+    
 
       
 }
@@ -67,7 +89,7 @@ section {
 .upper-section {
   min-height: 50vh;
   width: 100%;
-  background: #9ECBC7;
+  background: cadetblue;
 }
 .lower-section{
   min-height: 50vh;
